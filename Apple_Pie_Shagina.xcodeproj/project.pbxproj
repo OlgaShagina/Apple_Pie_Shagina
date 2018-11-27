@@ -14,6 +14,7 @@
 		3F6B106B21A437D800CD622B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F6B106921A437D800CD622B /* LaunchScreen.storyboard */; };
 		3F6B107621A437D900CD622B /* Apple_Pie_ShaginaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6B107521A437D900CD622B /* Apple_Pie_ShaginaTests.swift */; };
 		3F6B108121A437D900CD622B /* Apple_Pie_ShaginaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6B108021A437D900CD622B /* Apple_Pie_ShaginaUITests.swift */; };
+		3FB6905A21AD7D1100785668 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB6905921AD7D1100785668 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3F6B107C21A437D900CD622B /* Apple_Pie_ShaginaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Apple_Pie_ShaginaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F6B108021A437D900CD622B /* Apple_Pie_ShaginaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_Pie_ShaginaUITests.swift; sourceTree = "<group>"; };
 		3F6B108221A437D900CD622B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FB6905921AD7D1100785668 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				3F6B106021A437D400CD622B /* AppDelegate.swift */,
 				3F6B106221A437D400CD622B /* ViewController.swift */,
+				3FB6905921AD7D1100785668 /* Game.swift */,
 				3F6B106421A437D400CD622B /* Main.storyboard */,
 				3F6B106721A437D800CD622B /* Assets.xcassets */,
 				3F6B106921A437D800CD622B /* LaunchScreen.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F6B106321A437D400CD622B /* ViewController.swift in Sources */,
+				3FB6905A21AD7D1100785668 /* Game.swift in Sources */,
 				3F6B106121A437D400CD622B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
